@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="pageDesign.css">
+    <title>Document</title>
+</head>
+<body>
+    <form class="input-form">
+        Name:<br> <input type="text" placeholder="Full Name"><br>
+        Email: <br><input type="text" placeholder="Email"><br>
+        Description (Optional):<br> <textarea rows="4" cols="50" placeholder="Give a description of how you'd like your two images edited."></textarea><br>
+        Image 1:<br> <input type="file" id="imgInp" accept="image/*"> <br> <img id="imgOne" src="#" alt="Image One" /><br>
+        Image 2:<br> <input type="file" id="imgURL" accept="image/*">   <br><img id="imgTwo" src="#" alt="Image Two" /><br>
+        <input type="submit" onclick="submit()"><br>
+    </form>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
